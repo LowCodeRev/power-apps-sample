@@ -1,9 +1,9 @@
 :root {
-  /* Semantic accent colors */
-  --color-brand: #0078d4;
-  --color-brand-hover: #106ebe;
-  --color-accent-light-blue: #00bcf2;
-  --color-accent-teal: #008272;
+  /* Semantic accent colors — Power Apps purple palette */
+  --color-brand: #742774;
+  --color-brand-hover: #5c1f5c;
+  --color-accent-light-blue: #b4a0ff;
+  --color-accent-teal: #8764b8;
   --color-danger: #e81123;
   --color-warning: #ff8c00;
   --color-success: #107c10;
