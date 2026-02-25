@@ -1,0 +1,98 @@
+.agent-card {
+  background: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, border-color 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.agent-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-border-hover);
+}
+
+.agent-card:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+.agent-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.agent-card-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.builder-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: var(--radius-xl);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.builder-badge-copilot-studio {
+  background: var(--color-purple-tint);
+  color: var(--color-accent-purple);
+}
+
+.builder-badge-agent-builder {
+  background: var(--color-teal-tint);
+  color: var(--color-accent-teal);
+}
+
+.agent-card-description {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.agent-card-connectors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.connector-chip {
+  font-size: 12px;
+  padding: 2px 10px;
+  background: var(--color-neutral-tint);
+  border-radius: var(--radius-xl);
+  color: var(--color-text-secondary);
+}
+
+.agent-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.comment-count {
+  font-size: 13px;
+  color: var(--color-text-tertiary);
+}
+
+.submitted-by {
+  font-size: 12px;
+  color: var(--color-text-disabled);
+  margin-left: auto;
+}

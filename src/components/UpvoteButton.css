@@ -1,0 +1,35 @@
+.upvote-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg-primary);
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--color-text-tertiary);
+  transition: all 0.15s;
+}
+
+.upvote-btn:hover {
+  border-color: var(--color-danger);
+  color: var(--color-danger);
+  background: var(--color-danger-tint);
+}
+
+.upvote-btn-active {
+  border-color: var(--color-danger);
+  color: var(--color-danger);
+  background: var(--color-danger-tint);
+}
+
+.upvote-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.upvote-count {
+  font-weight: 600;
+  font-size: 13px;
+}

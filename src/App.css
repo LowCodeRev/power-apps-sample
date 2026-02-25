@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  background: var(--color-bg-secondary);
+}
+
+.loading-state,
+.error-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  font-size: 16px;
+  color: var(--color-text-tertiary);
+}
+
+.error-state {
+  color: var(--color-danger);
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 8px;
+  left: 12px;
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  opacity: 0.6;
+}
